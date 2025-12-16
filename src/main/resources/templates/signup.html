@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="two">
+        <form method="post" action="/done">
+            <h1>Create A New Account</h1>
+            <input type="text" name="fname" placeholder="First Name">
+            <input type="text" name="lname" placeholder="Surname">
+            <input type="text" name="email" placeholder="Mobile number or email address">
+            <input type="text" name="pass" placeholder="Password">
+            <h4 style="margin: 0;">Birthday</h4>
+            <input type="date" name="birthday">
+            <h4 style="margin: 0;">Gender</h4>
+            <label><input type="radio" name="gender" value="Male" style="height: 15px; width: 15px;">Male</label>
+            <label><input type="radio" name="gender" value="Female" style="height: 15px; width: 15px;">Female</label>
+            <p style="font-size: smaller;">By clicking Create Account, you agree to our Terms and confirm
+                that you have
+                read our Data Policy, and Cookie Use Policy. You may receive SMS notifications from us and opt out at
+                any time.</p>
+            <button type="submit" class="green">Sign up</button>
+        </form>
+    </div>
+</body>
+
+</html>
